@@ -1,0 +1,35 @@
+[
+    {
+        "Dataset": "Internal Validation Set",
+        "Accuracy": 0.7731958762886598,
+        "Sensitivity": 0.6911764705882353,
+        "Precision": 0.6714285714285714,
+        "NPV": 0.8306451612903226,
+        "Specificity": 0.8174603174603174,
+        "F1 Score": 0.681159420289855,
+        "AUROC": 0.7858309990662931,
+        "AUPRC": 0.619379927631018
+    },
+    {
+        "Dataset": "External Validation Set 1",
+        "Accuracy": 0.7130434782608696,
+        "Sensitivity": 0.8478260869565217,
+        "Precision": 0.6,
+        "NPV": 0.86,
+        "Specificity": 0.6231884057971014,
+        "F1 Score": 0.7027027027027027,
+        "AUROC": 0.7841839949590422,
+        "AUPRC": 0.6588597291194057
+    },
+    {
+        "Dataset": "External Validation Set 2",
+        "Accuracy": 0.7882882882882883,
+        "Sensitivity": 0.775,
+        "Precision": 0.6813186813186813,
+        "NPV": 0.8625954198473282,
+        "Specificity": 0.795774647887324,
+        "F1 Score": 0.7251461988304093,
+        "AUROC": 0.8498239436619718,
+        "AUPRC": 0.755424351010287
+    }
+]
