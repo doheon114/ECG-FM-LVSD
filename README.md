@@ -14,7 +14,7 @@ ECG-FM-LVSD is a project focused on predicting left ventricular systolic dysfunc
 
 - **ECG-Based Prediction**: Utilize ECG data for accurate LVSD prediction.
 - **Explainable AI (XAI)**: Incorporate interpretability methods to explain model predictions and uncover relevant features.
-- **Customizable Models**: Easily modify and fine-tune machine learning models for LVSD risk prediction.
+- **Customizable Models**: Easily modify and fine-tune ECG-FM for LVSD risk prediction.
 
 ---
 
@@ -25,6 +25,18 @@ Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/doheon114/ECG-FM-LVSD.git
 cd ECG-FM-LVSD
+```
+
+---
+
+## Directory Structure
+
+```
+ECG-FM-LVSD/
+├── XAI/                    # code for eXplainable AI using KernelSHAP 
+├── checkpoints/            # pretrained model & finetuned best model weights
+├── main/                   # code containing the key aspects of the experiment
+└── results/                # Evaluation results and explanations
 ```
 
 ---
@@ -54,17 +66,6 @@ python XAI/explain.py
 
 ---
 
-## Directory Structure
-
-```
-ECG-FM-LVSD/
-├── XAI/                    # code for eXplainable AI using KernelSHAP 
-├── checkpoints/            # pretrained model & finetuned best model weights
-├── main/                   # code containing the key aspects of the experiment
-└── results/                # Evaluation results and explanations
-```
-
----
 
 ## Requirements
 
