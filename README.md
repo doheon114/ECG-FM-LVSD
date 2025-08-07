@@ -8,13 +8,15 @@
 
 ECG-FM-LVSD is a project focused on predicting left ventricular systolic dysfunction (LVSD) using ECG data and explainable artificial intelligence (XAI) techniques. This repository includes tools for model training, evaluation, and interpretability to enhance understanding of how predictions are made.
 
+This work is built upon and extends the original [ECG-FM](https://github.com/bowang-lab/ECG-FM) model. We gratefully acknowledge the authors of ECG-FM and have referred extensively to their publicly available implementation as the foundation for our fine-tuning and customization.
+
 ---
 
 ## Features
 
 - **ECG-Based Prediction**: Utilize ECG data for accurate LVSD prediction.
 - **Explainable AI (XAI)**: Incorporate interpretability methods to explain model predictions and uncover relevant features.
-- **Customizable Models**: Easily modify and fine-tune ECG-FM for LVSD risk prediction.
+- **Customizable Models**: Easily modify and fine-tune [ECG-FM](https://github.com/bowang-lab/ECG-FM) for LVSD risk prediction.
 
 ---
 
